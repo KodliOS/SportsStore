@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127B35BA23C7514100DBAF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35B923C7514100DBAF98 /* AppDelegate.swift */; };
-		127B35BE23C7514100DBAF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35BD23C7514100DBAF98 /* ViewController.swift */; };
-		127B35C123C7514100DBAF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127B35BF23C7514100DBAF98 /* Main.storyboard */; };
-		127B35C323C7514F00DBAF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127B35C223C7514F00DBAF98 /* Assets.xcassets */; };
-		127B35C623C7514F00DBAF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127B35C423C7514F00DBAF98 /* LaunchScreen.storyboard */; };
-		127B35CE23C7691D00DBAF98 /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35CD23C7691D00DBAF98 /* ProductTableCell.swift */; };
+		12E5BA6E23C7AA0100B861DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5BA6D23C7AA0100B861DE /* AppDelegate.swift */; };
+		12E5BA7223C7AA0100B861DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5BA7123C7AA0100B861DE /* ViewController.swift */; };
+		12E5BA7723C7AA0900B861DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E5BA7623C7AA0900B861DE /* Assets.xcassets */; };
+		12E5BA7A23C7AA0900B861DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E5BA7823C7AA0900B861DE /* LaunchScreen.storyboard */; };
+		12E5BA8223C7AA9600B861DE /* ViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5BA8123C7AA9600B861DE /* ViewControllerBuilder.swift */; };
+		12E5BA8423C7B25F00B861DE /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5BA8323C7B25F00B861DE /* ProductTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		127B35B623C7514100DBAF98 /* SportsStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		127B35B923C7514100DBAF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		127B35BD23C7514100DBAF98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		127B35C023C7514100DBAF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		127B35C223C7514F00DBAF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		127B35C523C7514F00DBAF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		127B35C723C7514F00DBAF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		127B35CD23C7691D00DBAF98 /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
+		12E5BA6A23C7AA0100B861DE /* Listing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E5BA6D23C7AA0100B861DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12E5BA7123C7AA0100B861DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12E5BA7623C7AA0900B861DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E5BA7923C7AA0900B861DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12E5BA7B23C7AA0900B861DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E5BA8123C7AA9600B861DE /* ViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilder.swift; sourceTree = "<group>"; };
+		12E5BA8323C7B25F00B861DE /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		127B35B323C7514100DBAF98 /* Frameworks */ = {
+		12E5BA6723C7AA0100B861DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		127B35AD23C7514100DBAF98 = {
+		12E5BA6123C7AA0100B861DE = {
 			isa = PBXGroup;
 			children = (
-				127B35B823C7514100DBAF98 /* SportsStore */,
-				127B35B723C7514100DBAF98 /* Products */,
+				12E5BA6C23C7AA0100B861DE /* Listing App */,
+				12E5BA6B23C7AA0100B861DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		127B35B723C7514100DBAF98 /* Products */ = {
+		12E5BA6B23C7AA0100B861DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				127B35B623C7514100DBAF98 /* SportsStore.app */,
+				12E5BA6A23C7AA0100B861DE /* Listing App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		127B35B823C7514100DBAF98 /* SportsStore */ = {
+		12E5BA6C23C7AA0100B861DE /* Listing App */ = {
 			isa = PBXGroup;
 			children = (
-				127B35B923C7514100DBAF98 /* AppDelegate.swift */,
-				127B35BD23C7514100DBAF98 /* ViewController.swift */,
-				127B35CD23C7691D00DBAF98 /* ProductTableCell.swift */,
-				127B35BF23C7514100DBAF98 /* Main.storyboard */,
-				127B35C223C7514F00DBAF98 /* Assets.xcassets */,
-				127B35C423C7514F00DBAF98 /* LaunchScreen.storyboard */,
-				127B35C723C7514F00DBAF98 /* Info.plist */,
+				12E5BA6D23C7AA0100B861DE /* AppDelegate.swift */,
+				12E5BA8123C7AA9600B861DE /* ViewControllerBuilder.swift */,
+				12E5BA7123C7AA0100B861DE /* ViewController.swift */,
+				12E5BA8323C7B25F00B861DE /* ProductTableCell.swift */,
+				12E5BA7623C7AA0900B861DE /* Assets.xcassets */,
+				12E5BA7823C7AA0900B861DE /* LaunchScreen.storyboard */,
+				12E5BA7B23C7AA0900B861DE /* Info.plist */,
 			);
-			path = SportsStore;
+			path = "Listing App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		127B35B523C7514100DBAF98 /* SportsStore */ = {
+		12E5BA6923C7AA0100B861DE /* Listing App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 127B35CA23C7515000DBAF98 /* Build configuration list for PBXNativeTarget "SportsStore" */;
+			buildConfigurationList = 12E5BA7E23C7AA0900B861DE /* Build configuration list for PBXNativeTarget "Listing App" */;
 			buildPhases = (
-				127B35B223C7514100DBAF98 /* Sources */,
-				127B35B323C7514100DBAF98 /* Frameworks */,
-				127B35B423C7514100DBAF98 /* Resources */,
+				12E5BA6623C7AA0100B861DE /* Sources */,
+				12E5BA6723C7AA0100B861DE /* Frameworks */,
+				12E5BA6823C7AA0100B861DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SportsStore;
-			productName = SportsStore;
-			productReference = 127B35B623C7514100DBAF98 /* SportsStore.app */;
+			name = "Listing App";
+			productName = "Listing App";
+			productReference = 12E5BA6A23C7AA0100B861DE /* Listing App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		127B35AE23C7514100DBAF98 /* Project object */ = {
+		12E5BA6223C7AA0100B861DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Oguz;
 				TargetAttributes = {
-					127B35B523C7514100DBAF98 = {
+					12E5BA6923C7AA0100B861DE = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 127B35B123C7514100DBAF98 /* Build configuration list for PBXProject "SportsStore" */;
+			buildConfigurationList = 12E5BA6523C7AA0100B861DE /* Build configuration list for PBXProject "Listing App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 127B35AD23C7514100DBAF98;
-			productRefGroup = 127B35B723C7514100DBAF98 /* Products */;
+			mainGroup = 12E5BA6123C7AA0100B861DE;
+			productRefGroup = 12E5BA6B23C7AA0100B861DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				127B35B523C7514100DBAF98 /* SportsStore */,
+				12E5BA6923C7AA0100B861DE /* Listing App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		127B35B423C7514100DBAF98 /* Resources */ = {
+		12E5BA6823C7AA0100B861DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127B35C623C7514F00DBAF98 /* LaunchScreen.storyboard in Resources */,
-				127B35C323C7514F00DBAF98 /* Assets.xcassets in Resources */,
-				127B35C123C7514100DBAF98 /* Main.storyboard in Resources */,
+				12E5BA7A23C7AA0900B861DE /* LaunchScreen.storyboard in Resources */,
+				12E5BA7723C7AA0900B861DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		127B35B223C7514100DBAF98 /* Sources */ = {
+		12E5BA6623C7AA0100B861DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127B35CE23C7691D00DBAF98 /* ProductTableCell.swift in Sources */,
-				127B35BE23C7514100DBAF98 /* ViewController.swift in Sources */,
-				127B35BA23C7514100DBAF98 /* AppDelegate.swift in Sources */,
+				12E5BA7223C7AA0100B861DE /* ViewController.swift in Sources */,
+				12E5BA6E23C7AA0100B861DE /* AppDelegate.swift in Sources */,
+				12E5BA8423C7B25F00B861DE /* ProductTableCell.swift in Sources */,
+				12E5BA8223C7AA9600B861DE /* ViewControllerBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		127B35BF23C7514100DBAF98 /* Main.storyboard */ = {
+		12E5BA7823C7AA0900B861DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				127B35C023C7514100DBAF98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		127B35C423C7514F00DBAF98 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				127B35C523C7514F00DBAF98 /* Base */,
+				12E5BA7923C7AA0900B861DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +158,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		127B35C823C7514F00DBAF98 /* Debug */ = {
+		12E5BA7C23C7AA0900B861DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		127B35C923C7515000DBAF98 /* Release */ = {
+		12E5BA7D23C7AA0900B861DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,38 +272,38 @@
 			};
 			name = Release;
 		};
-		127B35CB23C7515000DBAF98 /* Debug */ = {
+		12E5BA7F23C7AA0900B861DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYNNYZBQ5A;
-				INFOPLIST_FILE = SportsStore/Info.plist;
+				INFOPLIST_FILE = "Listing App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.oguzozturk.SportsStore;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzozturk.Listing-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		127B35CC23C7515000DBAF98 /* Release */ = {
+		12E5BA8023C7AA0900B861DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYNNYZBQ5A;
-				INFOPLIST_FILE = SportsStore/Info.plist;
+				INFOPLIST_FILE = "Listing App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.oguzozturk.SportsStore;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzozturk.Listing-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -321,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		127B35B123C7514100DBAF98 /* Build configuration list for PBXProject "SportsStore" */ = {
+		12E5BA6523C7AA0100B861DE /* Build configuration list for PBXProject "Listing App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127B35C823C7514F00DBAF98 /* Debug */,
-				127B35C923C7515000DBAF98 /* Release */,
+				12E5BA7C23C7AA0900B861DE /* Debug */,
+				12E5BA7D23C7AA0900B861DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		127B35CA23C7515000DBAF98 /* Build configuration list for PBXNativeTarget "SportsStore" */ = {
+		12E5BA7E23C7AA0900B861DE /* Build configuration list for PBXNativeTarget "Listing App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127B35CB23C7515000DBAF98 /* Debug */,
-				127B35CC23C7515000DBAF98 /* Release */,
+				12E5BA7F23C7AA0900B861DE /* Debug */,
+				12E5BA8023C7AA0900B861DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 127B35AE23C7514100DBAF98 /* Project object */;
+	rootObject = 12E5BA6223C7AA0100B861DE /* Project object */;
 }

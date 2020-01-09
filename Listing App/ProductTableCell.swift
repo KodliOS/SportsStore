@@ -1,6 +1,6 @@
 //
-//  UITAbleViTableViewCell.swift
-//  SportsStore
+//  ProductTableCell.swift
+//  Listing App
 //
 //  Created by Oguz on 9.01.2020.
 //  Copyright © 2020 Oguz. All rights reserved.
@@ -8,11 +8,17 @@
 
 import UIKit
 
+protocol ProductTableCellDelegate: class {
+    func productTableCell(_ cell: ProductTableCell, didTapStepper stepper: UIStepper)
+}
+
 class ProductTableCell: UITableViewCell {
     
     var productId:Int?
     
-    lazy var nameLabel: UITextField = {
+    weak var delegate: ProductTableCellDelegate?
+    
+    private lazy var nameLabel: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.allowsEditingTextAttributes = true
@@ -24,7 +30,7 @@ class ProductTableCell: UITableViewCell {
         return textField
     }()
     
-    lazy var descriptionLabel: UITextField = {
+    private lazy var descriptionLabel: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.allowsEditingTextAttributes = true
@@ -36,7 +42,7 @@ class ProductTableCell: UITableViewCell {
         return textField
     }()
     
-    lazy var stockField: UITextField = {
+    private lazy var stockField: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.allowsEditingTextAttributes = true
@@ -48,8 +54,8 @@ class ProductTableCell: UITableViewCell {
         return textField
     }()
     
-    lazy var stockStepper: UIStepper = {
-       let stepper = UIStepper()
+    private lazy var stockStepper: UIStepper = {
+        let stepper = UIStepper()
         stepper.translatesAutoresizingMaskIntoConstraints = false
         stepper.stepValue = 1
         stepper.frame = CGRect(x: (self.frame.width * 0.82), y: 10, width: self.frame.width/10, height: self.frame.height/2.5)
@@ -62,17 +68,30 @@ class ProductTableCell: UITableViewCell {
         self.addSubview(descriptionLabel)
         self.addSubview(stockField)
         self.addSubview(stockStepper)
+        stockStepper.addTarget(self, action: #selector(stepperTapped(_:)), for: .allTouchEvents)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    @objc func stepperTapped(_ sender: UIStepper) {
+        delegate?.productTableCell(self, didTapStepper: sender)
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        } 
+   public func setStepper(_ value: Double) {
+        stockStepper.value = value
+    }
+    
+   public func setField(_ text: String) {
+        stockField.text = text
+    }
+    
+    public func configure(_ product: (String, String, String, Double, Int), index: Int) {
+        productId = index
+        nameLabel.text = product.0
+        descriptionLabel.text = product.1
+        stockStepper.value = Double(product.4)
+        stockField.text = String(product.4)
+    }
 }
