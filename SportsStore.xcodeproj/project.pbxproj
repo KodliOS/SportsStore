@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		127B35BA23C7514100DBAF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35B923C7514100DBAF98 /* AppDelegate.swift */; };
-		127B35BC23C7514100DBAF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35BB23C7514100DBAF98 /* SceneDelegate.swift */; };
 		127B35BE23C7514100DBAF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35BD23C7514100DBAF98 /* ViewController.swift */; };
 		127B35C123C7514100DBAF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127B35BF23C7514100DBAF98 /* Main.storyboard */; };
 		127B35C323C7514F00DBAF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127B35C223C7514F00DBAF98 /* Assets.xcassets */; };
 		127B35C623C7514F00DBAF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127B35C423C7514F00DBAF98 /* LaunchScreen.storyboard */; };
+		127B35CE23C7691D00DBAF98 /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B35CD23C7691D00DBAF98 /* ProductTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		127B35B623C7514100DBAF98 /* SportsStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127B35B923C7514100DBAF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		127B35BB23C7514100DBAF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		127B35BD23C7514100DBAF98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		127B35C023C7514100DBAF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		127B35C223C7514F00DBAF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		127B35C523C7514F00DBAF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		127B35C723C7514F00DBAF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127B35CD23C7691D00DBAF98 /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				127B35B923C7514100DBAF98 /* AppDelegate.swift */,
-				127B35BB23C7514100DBAF98 /* SceneDelegate.swift */,
 				127B35BD23C7514100DBAF98 /* ViewController.swift */,
+				127B35CD23C7691D00DBAF98 /* ProductTableCell.swift */,
 				127B35BF23C7514100DBAF98 /* Main.storyboard */,
 				127B35C223C7514F00DBAF98 /* Assets.xcassets */,
 				127B35C423C7514F00DBAF98 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127B35CE23C7691D00DBAF98 /* ProductTableCell.swift in Sources */,
 				127B35BE23C7514100DBAF98 /* ViewController.swift in Sources */,
 				127B35BA23C7514100DBAF98 /* AppDelegate.swift in Sources */,
-				127B35BC23C7514100DBAF98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYNNYZBQ5A;
 				INFOPLIST_FILE = SportsStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oguzozturk.SportsStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYNNYZBQ5A;
 				INFOPLIST_FILE = SportsStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oguzozturk.SportsStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
